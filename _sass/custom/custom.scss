@@ -61,7 +61,7 @@ body {
 
   .side-bar + .main {
     margin-right: 15.5rem;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .site-footer {
@@ -73,7 +73,7 @@ body {
 @media (min-width: 66.5rem) {
   .side-bar + .main {
     margin-right: Max(16.5rem, calc((100% - 66.5rem) / 2 + 16.5rem));
-    margin-left: auto;
+    margin-left: 0;
   }
 }
 

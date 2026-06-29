@@ -9,3 +9,5 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+playwright-rtl-check-attempt1.png
+playwright-rtl-check-attempt2.png

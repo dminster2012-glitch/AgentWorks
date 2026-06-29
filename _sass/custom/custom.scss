@@ -51,6 +51,16 @@ body {
   unicode-bidi: isolate;
 }
 
+a.skip-to-main {
+  right: -999px;
+  left: auto;
+}
+
+a.skip-to-main:focus,
+a.skip-to-main:active {
+  right: auto;
+}
+
 @media (min-width: 50rem) {
   .side-bar {
     right: 0;

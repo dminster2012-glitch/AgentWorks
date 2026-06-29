@@ -1,0 +1,28 @@
+title: "ערכת שיעורים בעברית"
+description: "אתר לימודי קטן למורים, בנוי ב-Jekyll עם Just the Docs ו-GitHub Pages."
+lang: he
+dir: rtl
+url: "https://dminster2012-glitch.github.io"
+baseurl: "/AgentWorks"
+
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+
+plugins:
+  - jekyll-remote-theme
+
+permalink: pretty
+
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "מאגר GitHub":
+    - "https://github.com/dminster2012-glitch/AgentWorks"
+
+callouts:
+  note:
+    title: שימו לב
+    color: blue
+  task:
+    title: משימה
+    color: green

@@ -1,0 +1,58 @@
+html {
+  direction: rtl;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+.site-title,
+.site-header,
+.navigation,
+.main-content,
+.table-wrapper,
+.search-input,
+.breadcrumb-nav,
+.page-header,
+.page-footer {
+  direction: rtl;
+}
+
+.main-content ol,
+.main-content ul {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+.main-content table {
+  direction: rtl;
+}
+
+.main-content pre,
+.main-content code,
+.main-content kbd,
+.main-content samp,
+.main-content .highlight,
+.main-content .language-plaintext,
+.main-content td code,
+.main-content th code {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: left;
+}
+
+.main-content pre code {
+  display: block;
+  overflow-x: auto;
+}
+
+.main-content a code {
+  unicode-bidi: isolate;
+}
+
+@media (max-width: 50rem) {
+  .main-content {
+    line-height: 1.75;
+  }
+}
